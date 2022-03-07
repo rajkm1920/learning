@@ -1,17 +1,9 @@
 package com.learning.model;
 
-public class AuthenticationRequest {
-
+public class User {
+	
 	private String userName;
 	private String password;
-	
-	public AuthenticationRequest() {
-	}
-	public AuthenticationRequest(String userName, String password) {
-		
-		this.userName = userName;
-		this.password = password;
-	}
 	public String getUserName() {
 		return userName;
 	}
@@ -26,6 +18,5 @@ public class AuthenticationRequest {
 	}
 	
 	
-	
-	
+
 }
